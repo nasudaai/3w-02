@@ -1,7 +1,8 @@
-function reObj() {
+function reObj(key, value) {
 
-  const obj = {k: "v"};
+  const obj = {key: value};
   console.log(obj);
 }
 
-reObj();
+const key = "key";
+reObj(key, "value");
