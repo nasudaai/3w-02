@@ -5,4 +5,6 @@ const I = {
   kg: 67
 };
 
+const base = I.kg * 1 * 24;
 console.log(I);
+console.log(base);
