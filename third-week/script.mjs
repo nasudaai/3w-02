@@ -8,7 +8,8 @@ const obj = {
 if (args.length === 0) {
   process.stdout.write("pleas argv\n");
 
-  console.log(`default ${obj.key}`)
+  const keyName = Object.keys(obj);
+  console.log(`default ${keyName}:  ${obj[keyName]}`);
   process.exit(0);
 }
 
