@@ -16,6 +16,13 @@ if (args.length === 0) {
   process.exit(0);
 }
 
+const object = {};
+
+const key = args[0];
+console.log(key);
+object[key] = "value";
+console.log(object);
+
 const json = JSON.stringify(args);
 const outObj = JSON.stringify(obj);
 console.log(json);
