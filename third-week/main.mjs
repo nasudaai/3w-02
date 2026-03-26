@@ -11,6 +11,11 @@ function main() {
 
   obj.one = args[0];
   console.log(obj);
+
+  if (args.length === 0) {
+    console.log("no argv");
+    process.exit(0);
+  }
 };
 
 main();
