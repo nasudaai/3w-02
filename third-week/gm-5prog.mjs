@@ -1,5 +1,7 @@
+//const args = process.argv.slice(2);
+
 const key = "Gm";
-const arr = ["Gm", "Dm", "Eflat", "Bflat", "Cm", "Gm", "Cm Eflat Am7-5", "D"];
+const cannonProg  = ["Gm", "Dm", "Eflat", "Bflat", "Cm", "Gm", "Cm Eflat Am7-5", "D"];
 console.log(arr);
 
 const fourValiation = arr[7-1];
